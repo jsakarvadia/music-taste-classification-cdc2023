@@ -46,6 +46,22 @@ def get_top_songs(username):
     token = get_token(username, 'user-top-read')
     sp = spotipy.Spotify(auth=token)
     top_tracks = create_top_tracks_dict(sp, 'long_term')
-    return pd.DataFrame(all_features(sp, top_tracks))
+    song_features = pd.DataFrame(all_features(sp, top_tracks))
+    return pd.concat([pd.DataFrame(top_tracks), song_features], axis=1)
 
+
+def get_playlist(playlist_id):
+    token = get_token('jpamukci', 'user-top-read')
+    sp = spotipy.Spotify(auth=token)
+    playlist = playlist_id
+    playlist_data = sp.playlist(playlist)['tracks']['items']
+    songs = [song['track'] for song in playlist_data]
+    tracks = [{'name':item['name'], 
+                            'album':item['album']['name'],
+                            'year':item['album']['release_date'],
+                            'artists':[artist['name'] for artist in item['album']['artists']],
+                            'track_id':item['id'],
+                            'image':item['album']['images'][0]['url']} for item in songs]
+    features = all_features(sp, tracks)
+    return pd.concat([pd.DataFrame(tracks), pd.DataFrame(features)], axis=1)
 
