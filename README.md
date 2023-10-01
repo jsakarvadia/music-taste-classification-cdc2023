@@ -25,7 +25,7 @@ Euclidean Distance
 ![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/6ec7c9ae-59a5-4309-85e3-c3b274cf03d5)
 
 
-5 - Collected distance between user vector and playlist vector across 3D linear space using distance formula across and convert distance to % using inverse normalization formula: (1  / actual_distance) * 100
+5 - Collected distance between user vector and playlist vector across 3D linear space using distance formula and converting distance to % using inverse normalization formula: (1  / actual_distance) * 100
 
 ![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/bc36047d-9074-4619-a605-90ae0f61b60f)
 
