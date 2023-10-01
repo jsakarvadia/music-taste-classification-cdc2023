@@ -17,7 +17,7 @@ Euclidian Distance
 3 - Regression analysis for audio feature selection; take 3 most correlative features 
 
 
-_(below represents strong correlation between ranking of song and the feature)
+(below represents strong correlation between ranking of song and the feature)
 _![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/180a8230-a7ab-4846-8998-efc4a7a35746)
 
 
