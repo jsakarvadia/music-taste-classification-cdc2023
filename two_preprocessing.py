@@ -1,3 +1,5 @@
+#https://www.section.io/engineering-education/building-spotify-recommendation-engine/#creating-playlist-vector
+
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
