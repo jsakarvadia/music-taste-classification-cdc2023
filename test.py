@@ -29,8 +29,7 @@ def create_top_tracks_dict(sp, period):
                             'album':item['album']['name'],
                             'year':item['album']['release_date'],
                             'artists':[artist['name'] for artist in item['album']['artists']],
-                            'track_id':item['id'],
-                            'image':item['album']['images'][0]['url']} for item in list_tracks]
+                            'track_id':item['id']} for item in list_tracks if item is not None]
     return top_track_dict
 
 def all_features(sp, dictionary):
@@ -40,14 +39,14 @@ def all_features(sp, dictionary):
 
     return all_features
 
-# def get_top_tracks():
 
-def get_top_songs(username):
+def get_user(username):
     token = get_token(username, 'user-top-read')
     sp = spotipy.Spotify(auth=token)
     top_tracks = create_top_tracks_dict(sp, 'long_term')
     song_features = pd.DataFrame(all_features(sp, top_tracks))
-    return pd.concat([pd.DataFrame(top_tracks), song_features], axis=1)
+    data = pd.concat([pd.DataFrame(top_tracks), song_features], axis=1)
+    return data
 
 
 def get_playlist(playlist_id):
@@ -63,6 +62,8 @@ def get_playlist(playlist_id):
                             'track_id':item['id'],
                             'image':item['album']['images'][0]['url']} for item in songs]
     features = all_features(sp, tracks)
-    return pd.concat([pd.DataFrame(tracks), pd.DataFrame(features)], axis=1)
+    data = pd.concat([pd.DataFrame(tracks), pd.DataFrame(features)], axis=1)
+    return data
 
-# print(get_top_songs('jay.sakarvadia'))
+print(get_user('jay.sakarvadia'))
+
