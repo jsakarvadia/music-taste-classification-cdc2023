@@ -12,7 +12,7 @@ Cosine Similarity
 
 
 
-Euclidian Distance
+Euclidean Distance
 ------------------
 3 - Regression analysis for audio feature selection; take 3 most correlative features 
 
