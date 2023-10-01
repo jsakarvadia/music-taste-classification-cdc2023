@@ -30,5 +30,3 @@ def get_feature_list(data): #this is raw API data
 
     spotify_features_df[['acousticness','danceability','duration_ms','energy','instrumentalness','liveness','loudness','speechiness','tempo','valence']] = scaled_features.T
     return spotify_features_df #This is cleaned API data with only audio features
-
-spotify_features_df
