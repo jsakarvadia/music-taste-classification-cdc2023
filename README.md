@@ -1,18 +1,21 @@
 # CDC2023
+----------
+This project was completed collabratively between Jay Sakarvadia and Jack Pamukci. Both individuals took lead on a portion of the project, but still worked collabratively with each other to contribute to the other parts as well.
+----------
 
 1 - Connect to Spotify API (created subsequent methods for API connection)
 
 2 - Build get_user (audio feature data given users top 100 long-term songs) & get_playlist (audio feature data given selected playlist) methods to pull relevent audio feature data
 
-Cosine Similarity
+Cosine Similarity - Jay (Lead)
 ------------------
-3 - Method to preprocess data by dropping categorical variables (one-hot encoding proved to be inefficent), and by using max-min normalization for all numeric features
+3 - Code method to preprocess data by dropping categorical variables (one-hot encoding proved to be inefficent), and by using max-min normalization for all numeric features
 
-4 - Method to consolidate both user and playlist audio feature data into a single mean feature vector
+4 - Code method to consolidate both user and playlist audio feature data into a single mean feature vector
 ![image](https://github.com/JaySakarvadia/CDC2023/assets/107783145/14bdcda4-d622-4dee-a167-9325d02839bf)
 ![image](https://github.com/JaySakarvadia/CDC2023/assets/107783145/e85b0cc1-cf83-434f-ac62-1f635e4f94d2)
 
-5 - Method to calculate cosine similarities (angle between two vectors in space; user vector and playlist vector)
+5 - Code method to calculate cosine similarities (angle between two vectors in space; user vector and playlist vector)
 using equation, then converting output to radians, and then degrees in order to eventually be able to understand
 ![image](https://github.com/JaySakarvadia/CDC2023/assets/107783145/285f7a01-f816-46dd-b03c-115664d014a6)
 
@@ -25,7 +28,7 @@ using equation, then converting output to radians, and then degrees in order to 
 
 
 
-Euclidean Distance
+Euclidean Distance - Jack (Lead)
 ------------------
 3 - Regression analysis for audio feature selection; take 3 most correlative features 
 
