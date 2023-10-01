@@ -15,6 +15,8 @@ Cosine Similarity
 Euclidian Distance
 ------------------
 3 - Regression analysis for audio feature selection; take 3 most correlative features
+![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/c439f8a0-b47a-41fc-9a1e-bb91d575fa32)
+
 4 - Consolidated user audio correlative feature data into a single mean feature vector
 5 - Collected distance between user vector and playlist vector across 3D linear space using distance formula across
 6 - Coverted distance to % using normalization formula: (max_distance-actual_distance)/max_distance
