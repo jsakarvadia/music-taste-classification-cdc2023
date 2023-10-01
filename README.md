@@ -22,7 +22,7 @@ Euclidian Distance
 
 
 4 - Consolidated user audio correlative feature data into a single mean feature vector
-![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/1744a779-3d88-4812-a8fd-3232e4d9c369)
+![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/6ec7c9ae-59a5-4309-85e3-c3b274cf03d5)
 
 
 5 - Collected distance between user vector and playlist vector across 3D linear space using distance formula across
