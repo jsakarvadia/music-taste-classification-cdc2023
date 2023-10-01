@@ -18,10 +18,12 @@ Euclidian Distance
 
 
 (below represents strong correlation between ranking of song and the feature)
-_![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/180a8230-a7ab-4846-8998-efc4a7a35746)
+![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/180a8230-a7ab-4846-8998-efc4a7a35746)
 
 
 4 - Consolidated user audio correlative feature data into a single mean feature vector
+![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/1744a779-3d88-4812-a8fd-3232e4d9c369)
+
 
 5 - Collected distance between user vector and playlist vector across 3D linear space using distance formula across
 
