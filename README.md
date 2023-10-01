@@ -22,5 +22,7 @@ _![image](https://github.com/JaySakarvadia/CDC2023/assets/111033138/180a8230-a7a
 
 
 4 - Consolidated user audio correlative feature data into a single mean feature vector
+
 5 - Collected distance between user vector and playlist vector across 3D linear space using distance formula across
+
 6 - Coverted distance to % using normalization formula: (max_distance-actual_distance)/max_distance
