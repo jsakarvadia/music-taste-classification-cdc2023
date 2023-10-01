@@ -6,8 +6,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy.oauth2 import SpotifyOAuth
 import spotipy.util as util
 
-client_id = '5ee25f7022604f25bd114950a6437995'
-client_secret = '7137f0a04815452c991d20c21a18dae6'
+client_id = '0e7902842c524499a04bc6eb87ffb932'
+client_secret = 'f5422d9abdcb4eb49ccc73bb0adb2df5'
 redirect_uri = 'http://localhost:8881/callback'
 
 def get_token(username, scope):
@@ -51,7 +51,7 @@ def get_top_songs(username):
 
 
 def get_playlist(playlist_id):
-    token = get_token('jpamukci', 'user-top-read')
+    token = get_token('jay.sakarvadia', 'user-top-read')
     sp = spotipy.Spotify(auth=token)
     playlist = playlist_id
     playlist_data = sp.playlist(playlist)['tracks']['items']
@@ -65,3 +65,4 @@ def get_playlist(playlist_id):
     features = all_features(sp, tracks)
     return pd.concat([pd.DataFrame(tracks), pd.DataFrame(features)], axis=1)
 
+# print(get_top_songs('jay.sakarvadia'))
