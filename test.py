@@ -6,8 +6,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy.oauth2 import SpotifyOAuth
 import spotipy.util as util
 
-client_id = '1666565583ed437eb0edeff51104b0b6'
-client_secret = 'e3c2ed063d784d609da8ff26de56b7d0'
+client_id = '05597b2b98694f5293d7346b172e82be'
+client_secret = 'a3c54a53be6c4953bae385a78e1470c5'
 redirect_uri = 'http://localhost:8881/callback'
 
 def get_token(username, scope):
