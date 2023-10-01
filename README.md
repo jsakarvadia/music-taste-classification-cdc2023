@@ -15,9 +15,11 @@ Cosine Similarity
 5 - Method to calculate cosine similarities (angle between two vectors in space; user vector and playlist vector)
 using equation, then converting output to radians, and then degrees in order to eventually be able to understand
 ![image](https://github.com/JaySakarvadia/CDC2023/assets/107783145/285f7a01-f816-46dd-b03c-115664d014a6)
-% Similarity Breakdown
+
+
 
 6 - Implement all methods in algorithmic analysis notebook to see results
+% Similarity Breakdown
 ![image](https://github.com/JaySakarvadia/CDC2023/assets/107783145/c0e91244-5e89-49ad-8ad9-b17d31ccbb30)
 
 
