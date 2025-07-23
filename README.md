@@ -5,7 +5,7 @@ This project was completed collabratively between Jay Sakarvadia and Jack Pamukc
 Project Overview
 ----------------
 ## Inspiration
-Our inspiration came from the theme of nostalgia and our core memories watching sitcoms of the late 90s and 2000s. Given that music plays such a large part in the lives of people and that there is publicly available APIs such as Spotify, we can harness our patterns of listening to give us a bit more insight and comparison to some of our favorite TV characters.
+Our inspiration came from the theme of nostalgia and our core memories watching sitcoms of the late 90s and 2000s. Given that music plays such a large part in the lives of people and that there are publicly available APIs such as that of Spotify, we can harness our patterns of listening to give us a bit more insight and comparison to some of our favorite TV characters.
 ## Objective
 This app takes a users most listened to songs and classifies them as one of many sitcom characters from the following shows:
 - Friends
